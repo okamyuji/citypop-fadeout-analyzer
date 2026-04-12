@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Analysis output
+out/
+*.csv
+
+# Audio files
+audio/
+*.mp3
+*.flac
+*.wav
+*.m4a
+*.ogg
+
+# Scripts (one-off utilities)
+scripts/
+.DS_Store
