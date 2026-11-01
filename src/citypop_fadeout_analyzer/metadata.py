@@ -14,7 +14,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-from mutagen import File as MutagenFile  # type: ignore[attr-defined]
+from mutagen import File as MutagenFile
 
 _YEAR_RE = re.compile(r"(?P<year>(?:19|20)\d{2})")
 
